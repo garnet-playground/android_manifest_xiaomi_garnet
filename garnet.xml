@@ -8,6 +8,7 @@
     <!-- Remote -->
     <remote fetch="https://github.com/Garnet-Playground" name="org" />
     <remote fetch="https://git.mainlining.org/adarshgrewal" name="adarsh" />
+    <remote fetch="https://github.com/LineageOS" name="lineage" />
 
     <!-- Device -->
     <project name="android_device_xiaomi_garnet" path="device/xiaomi/garnet" remote="org" revision="udc" />
@@ -21,5 +22,9 @@
     <!-- Other -->
     <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="org" revision="lineage-21" />
     <project name="proprietary_vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="adarsh" revision="lineage-21" />
+    <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
+
+    <!-- Hotfix -->
+    <project name="android_external_chromium-webview" path="external/chromium-webview" remote="lineage" revision="main" />
 
 </manifest>
