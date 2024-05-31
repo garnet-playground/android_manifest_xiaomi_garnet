@@ -22,7 +22,7 @@
 
     <!-- Other -->
     <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="org" revision="lineage-21" />
-    <project name="proprietary_vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="adarsh" revision="lineage-21" />
+    <project name="proprietary_vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="royw" revision="main" />
     <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
 
     <!-- Hotfix -->
