@@ -2,7 +2,7 @@
 <manifest>
     <!--
     * target: garnet
-    * rom: EvoX :3
+    * rom: Matrixx
     -->
 
     <!-- Remote -->
@@ -27,5 +27,4 @@
 
     <!-- Hotfix -->
     <project name="android_external_chromium-webview" path="external/chromium-webview" remote="lineage" revision="main" />
-    <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8450/display" remote="royw" revision="14.0-caf-sm8450-revert" />
 </manifest>
